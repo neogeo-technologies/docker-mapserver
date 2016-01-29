@@ -1,0 +1,132 @@
+MAP
+  EXTENT 4.6 45.5 5.5 46
+  FONTSET "fonts/fonts.txt"
+  IMAGECOLOR 255 255 255
+  IMAGETYPE "png"
+  NAME "integration"
+  SIZE 600 600
+  STATUS ON
+  UNITS DD
+
+
+  OUTPUTFORMAT
+    NAME "geojson"
+    MIMETYPE "application/json; subtype=geojson"
+    DRIVER "OGR/GEOJSON"
+    IMAGEMODE FEATURE
+    TRANSPARENT FALSE
+    FORMATOPTION "STORAGE=stream"
+    FORMATOPTION "FORM=SIMPLE"
+  END # OUTPUTFORMAT
+
+  OUTPUTFORMAT
+    NAME "kml"
+    MIMETYPE "application/vnd.google-earth.kml"
+    DRIVER "OGR/KML"
+    IMAGEMODE FEATURE
+    TRANSPARENT FALSE
+    FORMATOPTION "STORAGE=memory"
+    FORMATOPTION "FORM=SIMPLE"
+    FORMATOPTION "FILENAME=result.kml"
+  END # OUTPUTFORMAT
+
+  OUTPUTFORMAT
+    NAME "SHAPEZIP"
+    MIMETYPE "application/shapefile"
+    DRIVER "OGR/ESRI Shapefile"
+    IMAGEMODE FEATURE
+    TRANSPARENT FALSE
+    FORMATOPTION "STORAGE=memory"
+    FORMATOPTION "FORM=zip"
+    FORMATOPTION "FILENAME=result.zip"
+  END # OUTPUTFORMAT
+
+  OUTPUTFORMAT
+    NAME "png"
+    MIMETYPE "image/png; mode=8bit"
+    DRIVER "AGG/PNG8"
+    EXTENSION "png"
+    IMAGEMODE RGB
+    TRANSPARENT FALSE
+    FORMATOPTION "QUANTIZE_FORCE=on"
+    FORMATOPTION "QUANTIZE_COLORS=256"
+    FORMATOPTION "GAMMA=0.75"
+  END # OUTPUTFORMAT
+
+
+  PROJECTION
+    "init=epsg:4171"
+  END # PROJECTION
+  LEGEND
+    IMAGECOLOR 255 255 255
+    KEYSIZE 20 10
+    KEYSPACING 5 5
+    LABEL
+      SIZE MEDIUM
+      COLOR 0 0 0
+      OFFSET 0 0
+      SHADOWSIZE 1 1
+      TYPE BITMAP
+    END # LABEL
+    STATUS OFF
+  END # LEGEND
+
+
+  SCALEBAR
+    COLOR 0 0 0
+    IMAGECOLOR 255 255 255
+    INTERVALS 4
+    LABEL
+      SIZE MEDIUM
+      COLOR 0 0 0
+      OFFSET 0 0
+      SHADOWSIZE 1 1
+      TYPE BITMAP
+    END # LABEL
+    SIZE 200 3
+    STATUS OFF
+    UNITS MILES
+  END # SCALEBAR
+
+  WEB
+    IMAGEPATH "/var/www/tmp/"
+    IMAGEURL "/tmp/"
+    METADATA
+      "wms_srs"	"EPSG:4171 EPSG:4326 EPSG:2154 EPSG:27572 EPSG:27562 EPSG:3946 EPSG:900913 EPSG:3857 EPSG:4258"
+    END # METADATA
+    TEMPLATE "foo"
+  END # WEB
+
+  LAYER
+    CLASSGROUP "inspire_common:DEFAULT"
+    CONNECTION "********************************************"
+    CONNECTIONTYPE POSTGIS
+    DATA "the_geom"
+    METADATA
+    END # METADATA
+    NAME "*********************"
+    PROJECTION
+      "init=epsg:4171"
+    END # PROJECTION
+    STATUS ON
+    TEMPLATE "foo.html"
+    TILEITEM ""
+    TYPE POLYGON
+    UNITS METERS
+    CLASS
+      NAME "xxxxxxxxxxxxxxxxxxxxxxxx"
+      GROUP "inspire_common:DEFAULT"
+      STYLE
+        ANGLE 0
+        COLOR 255 255 153
+        OFFSET 0 0
+      END # STYLE
+      STYLE
+        ANGLE 0
+        OFFSET 0 0
+        OUTLINECOLOR 51 51 51
+        WIDTH 0.6
+      END # STYLE
+    END # CLASS
+  END # LAYER
+END

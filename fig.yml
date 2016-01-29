@@ -1,0 +1,13 @@
+mapserver:
+    image: neogeo/mapserver 
+    volumes:
+        - ./maps:/var/maps
+    ports:
+        - "8080:80"
+mapserver2:
+    image: neogeo/mapserver
+    volumes:
+        - ./maps:/var/maps
+    ports:
+        - "8081:80"
+

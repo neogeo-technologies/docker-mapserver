@@ -1,0 +1,54 @@
+apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.69 for ServerName
+[Fri Jan 23 14:29:17 2015] [error] (2)No such file or directory: Couldn't bind unix domain socket /var/run/apache2/cgisock.7
+[Fri Jan 23 14:29:17 2015] [notice] Apache/2.2.22 (Debian) mod_fcgid/2.3.6 configured -- resuming normal operations
+[Fri Jan 23 14:29:17 2015] [crit] cgid daemon failed to initialize
+apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.74 for ServerName
+[Fri Jan 23 14:32:58 2015] [error] (2)No such file or directory: Couldn't bind unix domain socket /var/run/apache2/cgisock.7
+[Fri Jan 23 14:32:58 2015] [notice] Apache/2.2.22 (Debian) mod_fcgid/2.3.6 configured -- resuming normal operations
+[Fri Jan 23 14:32:58 2015] [crit] cgid daemon failed to initialize
+apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.75 for ServerName
+[Fri Jan 23 14:58:19 2015] [error] (2)No such file or directory: Couldn't bind unix domain socket /var/run/apache2/cgisock.7
+[Fri Jan 23 14:58:19 2015] [notice] Apache/2.2.22 (Debian) mod_fcgid/2.3.6 configured -- resuming normal operations
+[Fri Jan 23 14:58:19 2015] [crit] cgid daemon failed to initialize
+apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.78 for ServerName
+[Fri Jan 23 14:59:04 2015] [error] (2)No such file or directory: Couldn't bind unix domain socket /var/run/apache2/cgisock.7
+[Fri Jan 23 14:59:04 2015] [notice] Apache/2.2.22 (Debian) mod_fcgid/2.3.6 configured -- resuming normal operations
+[Fri Jan 23 14:59:04 2015] [crit] cgid daemon failed to initialize
+[Fri Jan 23 14:59:13 2015] [error] [client 172.17.42.1] File does not exist: /var/www/maps
+apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.80 for ServerName
+[Fri Jan 23 15:06:51 2015] [error] (2)No such file or directory: Couldn't bind unix domain socket /var/run/apache2/cgisock.10
+[Fri Jan 23 15:06:51 2015] [notice] Apache/2.2.22 (Debian) mod_fcgid/2.3.6 configured -- resuming normal operations
+[Fri Jan 23 15:06:51 2015] [crit] cgid daemon failed to initialize
+apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.81 for ServerName
+[Fri Jan 23 15:07:59 2015] [error] (2)No such file or directory: Couldn't bind unix domain socket /var/run/apache2/cgisock.7
+[Fri Jan 23 15:07:59 2015] [notice] Apache/2.2.22 (Debian) mod_fcgid/2.3.6 configured -- resuming normal operations
+[Fri Jan 23 15:07:59 2015] [crit] cgid daemon failed to initialize
+[Fri Jan 23 15:08:05 2015] [error] [client 172.17.42.1] Invalid method in request \x16\x03\x01
+apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.82 for ServerName
+[Fri Jan 23 15:09:19 2015] [error] (2)No such file or directory: Couldn't bind unix domain socket /var/run/apache2/cgisock.7
+[Fri Jan 23 15:09:19 2015] [notice] Apache/2.2.22 (Debian) mod_fcgid/2.3.6 configured -- resuming normal operations
+[Fri Jan 23 15:09:19 2015] [crit] cgid daemon failed to initialize
+apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.84 for ServerName
+[Fri Jan 23 15:10:17 2015] [notice] Apache/2.2.22 (Debian) mod_fcgid/2.3.6 configured -- resuming normal operations
+[Fri Jan 23 15:10:17 2015] [error] (2)No such file or directory: Couldn't bind unix domain socket /var/run/apache2/cgisock.7
+[Fri Jan 23 15:10:18 2015] [crit] cgid daemon failed to initialize
+apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.87 for ServerName
+[Fri Jan 30 08:01:43 2015] [error] (2)No such file or directory: Couldn't bind unix domain socket /var/run/apache2/cgisock.11
+[Fri Jan 30 08:01:43 2015] [notice] Apache/2.2.22 (Debian) mod_fcgid/2.3.6 configured -- resuming normal operations
+[Fri Jan 30 08:01:43 2015] [crit] cgid daemon failed to initialize
+[Fri Jan 30 08:18:02 2015] [notice] Apache/2.2.22 (Debian) mod_fcgid/2.3.6 configured -- resuming normal operations
+[Fri Jan 30 08:18:06 2015] [error] [client 172.17.42.1] File does not exist: /var/www/favicon.ico
+[Fri Jan 30 08:18:06 2015] [error] [client 172.17.42.1] File does not exist: /var/www/favicon.ico
+apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.101 for ServerName
+[Fri Jan 30 08:27:22 2015] [error] (2)No such file or directory: Couldn't bind unix domain socket /var/run/apache2/cgisock.7
+[Fri Jan 30 08:27:22 2015] [notice] Apache/2.2.22 (Debian) mod_fcgid/2.3.6 configured -- resuming normal operations
+[Fri Jan 30 08:27:22 2015] [crit] cgid daemon failed to initialize
+[Fri Jan 30 08:29:11 2015] [error] [client 172.17.42.1] script not found or unable to stat: /usr/lib/cgi-bin/mapserv
+[Fri Jan 30 08:51:43 2015] [error] [client 172.17.42.1] File does not exist: /var/www/favicon.ico
+[Fri Jan 30 08:51:43 2015] [error] [client 172.17.42.1] File does not exist: /var/www/favicon.ico
+apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.102 for ServerName
+[Fri Jan 30 08:53:48 2015] [error] (2)No such file or directory: Couldn't bind unix domain socket /var/run/apache2/cgisock.7
+[Fri Jan 30 08:53:48 2015] [notice] Apache/2.2.22 (Debian) mod_fcgid/2.3.6 configured -- resuming normal operations
+[Fri Jan 30 08:53:48 2015] [crit] cgid daemon failed to initialize
+[Fri Jan 30 08:54:07 2015] [error] [client 172.17.42.1] File does not exist: /var/www/favicon.ico
+[Fri Jan 30 08:54:07 2015] [error] [client 172.17.42.1] File does not exist: /var/www/favicon.ico

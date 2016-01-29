@@ -1,0 +1,15 @@
+ARIAL                      ARIAL.TTF
+ARIAL-bold                 ARIALBD.TTF
+ARIAL-bold-italic          ARIALBI.TTF
+ARIAL-italic               ARIALIT.TTF
+VERDANA                   VERDANA.TTF
+VERDANA-bold              VERDANAB.TTF
+VERDANA-italic            VERDANAI.TTF
+VERDANA-bold-italic       VERDANAZ.TTF
+GOTHIC				GOTHIC.TTF
+GOTHIC-bold			GOTHICB.TTF
+GOTHIC-italic		GOTHICI.TTF
+GOTHIC-bold-italic             GOTHICBI.TTF
+TIMES			GARA.TTF
+TIMES-bold		GARABD.TTF
+TIMES-italic		GARAIT.TTF
