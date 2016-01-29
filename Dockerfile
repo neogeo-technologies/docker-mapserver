@@ -20,7 +20,7 @@ RUN apt-get update && \
 		libfreetype6-dev \
 		zlib1g-dev \
 		libpng12-dev \
-		libjpeg8-dev \
+		libjpeg62-turbo-dev \
 		libcurl4-gnutls-dev \
 		libxml2-dev \
 		libcairo2-dev \
