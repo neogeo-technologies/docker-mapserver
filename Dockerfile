@@ -26,7 +26,7 @@ RUN apt-get update && \
 		libcairo2-dev \
 		libgif-dev \
         libpq-dev \
-		libtiff4-dev
+		libtiff5-dev
 
 RUN apt-get install -y libapache2-mod-fcgid libfcgi-dev
 # Install GEOS
